@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import Info from "./components/Info"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="max-w-screen-2xl mx-auto">
       <Navbar/>
       <Hero/>
+      <Info/>
     </div>
     </>
   )
