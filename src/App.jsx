@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <>
-      <h1>This is starting</h1>
+    <div className="max-w-screen-2xl mx-auto">
+      <Navbar/>
+    </div>
     </>
   )
 }
