@@ -1,3 +1,4 @@
+import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
     <div className="max-w-screen-2xl mx-auto">
       <Navbar/>
+      <Hero/>
     </div>
     </>
   )

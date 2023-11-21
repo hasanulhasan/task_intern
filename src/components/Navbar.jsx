@@ -14,8 +14,8 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="list-none flex">
-          <li><button className="mr-4 border-2 text-blue-500 border-blue-500 font-bold py-2 px-4 rounded-lg">Login</button></li>
-          <li><button className=" text-white rounded-lg py-2 px-4 bg-blue-500">Register</button></li>
+          <li><button className="mr-4 border-2 text-primary-500 border-primary-500 font-bold py-2 px-4 rounded-lg">Login</button></li>
+          <li><button className=" text-white rounded-lg py-2 px-4 bg-primary-500">Register</button></li>
         </ul>
       </div>
       </div>
