@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const Card = ({card}) => {
   const {no, noEnd, title, description, date, fee} = card

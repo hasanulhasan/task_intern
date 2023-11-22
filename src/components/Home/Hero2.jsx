@@ -1,9 +1,9 @@
-import file from '../assets/file.png'
-import people from '../assets/people.png'
-import search from '../assets/search.png'
-import education from '../assets/education.png'
-import people4 from '../assets/People 4.png'
-import people5 from '../assets/People 5.png'
+import file from '../../assets/file.png'
+import people from '../../assets/people.png'
+import search from '../../assets/search.png'
+import education from '../../assets/education.png'
+import people4 from '../../assets/People 4.png'
+import people5 from '../../assets/People 5.png'
 
 const Hero2 = () => {
   return (
