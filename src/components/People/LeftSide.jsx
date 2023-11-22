@@ -1,8 +1,8 @@
-
+import calender from '../../assets/calender.png'
 const LeftSide = () => {
   return (
-    <div>
-      <div className="w-max-[515] mr-20">
+    <div className="w-max-[515] mr-15">
+      <div className="">
             <h1 className="font-bold text-4xl mb-5">Michael Jackson</h1>
             <p className="text-xl">I am here to provide my expertise in accounting and finance, which includes financial statements,
                 economics, and auditing, all to assist you effectively</p>
@@ -15,6 +15,38 @@ const LeftSide = () => {
                 <span className="text-xl">
                     <span className="text-primary-500 font-bold">4.8</span> (89)</span>
             </div>
+      </div>
+
+      <div className="shadow-xl rounded-3xl p-6">
+            <div className="justify-between items-center flex">
+                <h1 className="text-xl">Basic to complex tasks</h1>
+                <h1 className="font-bold text-xl">₹4,370</h1>
+            </div>
+            <div className="text-xl mt-4">
+                <img src={calender} alt='calender icon' className='inline-block'/> Delivers the job within 2 days
+            </div>
+            <div className="flex items-center justify-evenly mt-5">
+                <div className="">
+                    <button
+                        className="bg-primary-500 text-white font-bold w-full py-3 px-10 text-xl mb-5 rounded-xl">Request
+                        Proposal</button>
+                </div>
+                <div className="">
+                    <button
+                        className="border border-primary-500 text-primary-500 px-10 font-bold w-full py-3 text-xl mb-5 rounded-xl">Chat
+                        with me</button>
+                </div>
+            </div>
+      </div>
+      
+        <div className='max-w-2xl mx-auto shadow-2xl p-6 rounded-lg mt-5'>
+            <h1 className="font-bold text-4xl my-5">What people say?</h1>
+            <p className="text-xl">
+                I cannot express enough gratitude for the support Micheal has provided in managing my
+                personal finances. Their attention to detail and deep understanding of financial markets
+                has ensured that my investments are in safe hands. I highly recommend their services to
+                anyone seeking financial guidance.<br/><br/>
+            </p>
         </div>
     </div>
   );
