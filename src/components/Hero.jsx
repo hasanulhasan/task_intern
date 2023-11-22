@@ -1,3 +1,6 @@
+import people1 from '../assets/Picture.png'
+import people2 from '../assets/Picture (1).png'
+import people3 from '../assets/Picture (2).png'
 
 const Hero = () => {
   return (
@@ -5,7 +8,7 @@ const Hero = () => {
 
       <div className="mr-auto place-self-center lg:col-span-7">
         <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Find <span className="bg-gradient-to-r from-gradient1-500 to-gradient2-500 text-transparent bg-clip-text">Partners</span> (CAs) <br/> available online</h1>
-        <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"><span className="uppercase font-bold">Connect</span> with us where your services are listed and visible to a myriad of businesses seeking CA’s for compliance support</p>
+        <p className="max-w-2xl mb-6 font-light text-deem-500 lg:mb-8 md:text-lg lg:text-xl"><span className="uppercase font-bold">Connect</span> with us where your services are listed and visible to a myriad of businesses seeking CA’s for compliance support</p>
         
         <div>
           <div className="relative mb-4 flex w-full flex-wrap items-stretch">
@@ -23,9 +26,9 @@ const Hero = () => {
       </div>
 
       <div className="hidden lg:mt-0 lg:col-span-5 lg:flex lg:gap-2">
-        <div><img className="rounded-3xl" src="https://robincollettephotography.com/wp-content/uploads/sites/7154/2021/04/sacramento_headshot_photographer-1-1.jpg" alt="photo" height='403px' width='198px'/></div>
-        <div><img className="rounded-3xl" src="https://robincollettephotography.com/wp-content/uploads/sites/7154/2021/04/sacramento_headshot_photographer-1-1.jpg" alt="photo" height='403px' width='198px'/></div>
-        <div><img className="rounded-3xl" src="https://robincollettephotography.com/wp-content/uploads/sites/7154/2021/04/sacramento_headshot_photographer-1-1.jpg" alt="photo" height='403px' width='198px'/></div>
+        <div><img className="rounded-3xl" src={people1} alt="photo" height='403px' width='198px'/></div>
+        <div><img className="rounded-3xl" src={people2} alt="photo" height='403px' width='198px'/></div>
+        <div><img className="rounded-3xl" src={people3} alt="photo" height='403px' width='198px'/></div>
       </div>
       
     </div>
