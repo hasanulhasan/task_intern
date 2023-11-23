@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/:id",
     element: <People />,
-    loader: ({ params }) => fetch(`http://localhost:9000/ca_info/${params.id}`)
+    loader: ({ params }) => fetch(`https://test-api-ca.onrender.com/ca_info/${params.id}`)
   },
 ]);
 

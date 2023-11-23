@@ -12,7 +12,7 @@ const People = () => {
   const [recommend, setRecommended] = useState([]);
 
   const fetchRecommend = (inputData) => {
-    fetch('http://localhost:9000/ca_info')
+    fetch('https://test-api-ca.onrender.com/ca_info')
     .then(res=> res.json())
     .then(data => {
       const result = data.filter(ca => {
