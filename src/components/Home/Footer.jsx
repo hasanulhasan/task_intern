@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import Logo from '../../assets/logo.png'
 const Footer = () => {
   return (
     <footer>
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
                 <img src="/image/image 1.png" alt=""/>
-                <h1 className="text-white mt-3 font-semibold text-2xl">LogoIpsum</h1>
+                <img src={Logo} alt='logo'/>
                 <p className="text-white mt-3">
                     India's first platform dedicated to <br/> simplifying partner search
                 </p>

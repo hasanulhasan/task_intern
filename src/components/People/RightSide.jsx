@@ -3,7 +3,7 @@ const RightSide = () => {
   return (
     <div>
       
-      <div className="max-w-[733px] mx-auto">
+      <div className="max-w-[733px] mx-auto mb-20">
             <div>
                 <img src={jackSon} className="lg:w-full" alt=""/>
             </div>

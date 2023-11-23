@@ -1,11 +1,12 @@
-
+import { Link } from 'react-router-dom';
+import LogoBlack from '../../assets/logoBlack.png'
 const Navbar = () => {
   return (
     <>
       <div className="flex justify-between h-20 mx-32 my-5 text-lg font-bold">
       <div>
-        <ul className="list-none flex">
-          <li className="px-4 ml-4">LogoIpsum</li>
+        <ul className="list-none flex items-center">
+          <Link to='/'><li className="px-4 ml-4 h-[45px]"><img src={LogoBlack} height="45px" alt='logo'/></li></Link>
           <li className="px-4 mx-4">Solutions</li>
           <li className="px-4 mx-4">Features</li>
           <li className="px-4 mx-4">Blogs</li>

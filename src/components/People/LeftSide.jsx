@@ -1,7 +1,7 @@
 import calender from '../../assets/calender.png'
 const LeftSide = () => {
   return (
-    <div className="w-max-[515] mr-15">
+    <div className="w-max-[515]">
       <div className="">
             <h1 className="font-bold text-4xl mb-5">Michael Jackson</h1>
             <p className="text-xl">I am here to provide my expertise in accounting and finance, which includes financial statements,
@@ -22,18 +22,18 @@ const LeftSide = () => {
                 <h1 className="text-xl">Basic to complex tasks</h1>
                 <h1 className="font-bold text-xl">₹4,370</h1>
             </div>
-            <div className="text-xl mt-4">
+            <div className="text-xl mt-6">
                 <img src={calender} alt='calender icon' className='inline-block'/> Delivers the job within 2 days
             </div>
             <div className="flex items-center justify-evenly mt-5">
                 <div className="">
                     <button
-                        className="bg-primary-500 text-white font-bold w-full py-3 px-10 text-xl mb-5 rounded-xl">Request
+                        className="bg-primary-500 text-white font-bold w-full py-3 px-8 text mb-5 rounded-xl">Request
                         Proposal</button>
                 </div>
                 <div className="">
                     <button
-                        className="border border-primary-500 text-primary-500 px-10 font-bold w-full py-3 text-xl mb-5 rounded-xl">Chat
+                        className="border border-primary-500 text-primary-500 px-8 font-bold w-full py-3 mb-5 rounded-xl">Chat
                         with me</button>
                 </div>
             </div>
