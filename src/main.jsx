@@ -14,8 +14,9 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/people",
+    path: "/:id",
     element: <People />,
+    loader: ({ params }) => fetch(`http://localhost:9000/ca_info/${params.id}`)
   },
 ]);
 
